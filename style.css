@@ -1894,6 +1894,11 @@ nav a{
 
 }
 
+#contact{
+    padding:80px 15px;
+}
+
+
 /*============= SMALL DEVICES =============*/
 
 @media(max-width:480px){
