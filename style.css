@@ -1891,14 +1891,31 @@ nav a{
     .about-text p{
         overflow-wrap: break-word;
     }
+@media (max-width:768px){
+
+    .contact-container{
+        display:grid;
+        grid-template-columns:1fr;
+        width:100%;
+    }
+
+    .contact-info{
+        width:100%;
+    }
+
+    .info-box{
+        width:100%;
+    }
 
 }
+  
+
 
 #contact{
     padding:80px 15px;
 }
 
-
+}
 /*============= SMALL DEVICES =============*/
 
 @media(max-width:480px){
