@@ -1389,24 +1389,25 @@ nav a:hover::after{
 }
 
 .info-box{
-
-    display:flex;
-
-    align-items:center;
-
-    gap:20px;
-
-    /* background:var(--card); */
-
-    padding:20px;
-
-    border-radius:15px;
-
-    transition:.4s;
-    border:2px solid #ff7b00;
-    outline:none;
-
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 2px solid #ff7b00;
+    border-radius: 15px;
+    width: 100%;
+    box-sizing: border-box;
 }
+
+.info-box > div{
+    flex: 1;
+    min-width: 0;
+}
+
+.info-box p{
+    overflow-wrap: anywhere;
+}
+
 
 .info-box:hover{
 
