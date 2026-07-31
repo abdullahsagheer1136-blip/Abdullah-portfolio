@@ -1867,9 +1867,32 @@ nav a{
 
 }
 
+  .about-container{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .about-image,
+    .about-text{
+        flex: 0 0 100%;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .about-image img{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .about-text p{
+        overflow-wrap: break-word;
+    }
+
 }
-
-
 
 /*============= SMALL DEVICES =============*/
 
